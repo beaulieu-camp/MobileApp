@@ -27,4 +27,4 @@ jobs:
         run: flutter pub get
 
       - name: Analyze project source
-        run: flutter build ipa
+        run: flutter build ipa --no-codesign
