@@ -30,7 +30,7 @@ jobs:
         run: flutter build ipa --no-codesign
         
       - name: Download a Build Artifact
-        uses: actions/download-artifact@v3.3.1
+        uses: actions/upload-artifact@v3.1.3
         with:
-          path: /Users/runner/work/MobileApp/MobileApp/build/
+          path: ./build/ios/archive/Runner.xcarchive
 
