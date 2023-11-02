@@ -30,8 +30,7 @@ jobs:
         run: flutter build ipa --no-codesign
         
       - name: Download a Build Artifact
-        uses: actions/download-artifact@v2.1.1
+        uses: actions/download-artifact@v3.3.1
         with:
-          name: testios
           path: /Users/runner/work/MobileApp/MobileApp/build/
 
