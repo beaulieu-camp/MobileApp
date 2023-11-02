@@ -32,5 +32,5 @@ jobs:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.1.1
         with:
-          path: ./build/ios/archive/
+          path: /Users/runner/work/MobileApp/MobileApp/build/ios/archive/Runner.xcarchive
 
