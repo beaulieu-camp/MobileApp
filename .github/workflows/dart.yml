@@ -27,7 +27,7 @@ jobs:
         run: flutter pub get
 
       - name: Analyze project source
-        run: flutter build ipa --no-codesign
+        run: flutter build ios --no-codesign
         
       - name: Download a Build Artifact
         uses: actions/upload-artifact@v3.1.3
