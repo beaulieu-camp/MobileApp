@@ -36,7 +36,6 @@ dependencies:
     cupertino_icons: ^1.0.2
     http: ^1.1.0
     flutter_svg: ^2.0.8
-    flutter_osm_plugin: ^0.60.5
     flutter_map: ^6.0.1
     flutter_map_cancellable_tile_provider: ^1.0.0
     flutter_displaymode: ^0.6.0
